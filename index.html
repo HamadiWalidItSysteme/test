@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMJ</title>
+
+    <!---------------------stylesheet--------------------->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!---------------------favicon--------------------->
+    <link rel="shortcut icon" href="LOGO.png" type="image/svg+xml">
+
+
+    <!---------------------font--------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+    <!---------------------HEADER--------------------->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="#">
+                <h1 class="logo">BMJ</h1>
+            </a>
+
+            <div class="navbar" data-navbar>
+
+                <div class="navbar-top">
+
+                    <a href="#" class="logo">BMJ</a>
+                    <button class="nav-close-btn" aria-label="Fermer le menu" data-nav-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-navbar-link>À propos</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#service" class="navbar-link" data-navbar-link>Services</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#product" class="navbar-link" data-navbar-link>Produits</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#formation" class="navbar-link" data-navbar-link>Formations</a>
+                    </li>
+
+
+                    <li class="navbar-item">
+                        <a href="#logiciel" class="navbar-link" data-navbar-link>Logiciels</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#footer" class="navbar-link" data-navbar-link>Contacts</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <button class="nav-open-btn" aria-label="Ouvrire le menu" data-nav-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!---------------------Main--------------------->
+
+    <main>
+        <article>
+            <!---------------------HERO--------------------->
+
+            <section class="hero" id="home">
+
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle"> 100% algeriénne</p>
+
+                        <h2 class="hero-title">Technologies de l'information et de la communication</h2>
+
+                        <p class="hero-text"> BMJ vous fournit une palette de possibilités : maintenance
+                            informatique,
+                            installation de réseaux, vente de matériel informatique, formations et développement de
+                            logiciels.
+                        </p>
+
+                        <a href="#about">
+
+                            <button class="btn">
+                                En savoir plus
+
+                            </button>
+
+                        </a>
+
+
+
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="1.png" width="1191" height="1167" loading="lazy" alt="hero-banner"
+                            class="w-100 banner-animation">
+                    </figure>
+
+                </div>
+
+            </section>
+
+            <!---------------------ABOUT--------------------->
+
+            <section class="section about" id="about">
+
+                <div class="container">
+
+                    <figure class="about-banner">
+                        <img src="2.png" width="694" height="529" loading="lazy" alt="about-banner"
+                            class="w-100 banner-animation">
+                    </figure>
+
+
+                    <div class="about-content">
+
+                        <h2 class="h2 section-title underline">BMJ</h2>
+
+                        <p class="about-text">
+                            Fondée en 1995, sous différentes appellations, BMJ offre des services dans le domaine
+                            des TIC.
+                            BMJ s’appuie sur la qualité et l’expérience de son équipe dirigeante pour exceller
+                            dans la réparation d’ordinateurs et d’imprimantes de toutes marques et technologies.
+                            Nous possédons une expertise technique dans les technologies de l’information et des
+                            communications (Logiciels, réseaux informatique et téléphonique, Formations,…).
+                            Revendeur autorisé de produits informatique, nous offrons également une vaste gamme de
+                            marques reconnues.
+                            La clientèle de BMJ est composée d’organismes gouvernementaux et d’entreprises
+                            privées et publics ainsi que des particuliers.
+                        </p>
+
+                        <ul class="stats-list">
+
+                            <li class="stats-card">
+                                <div class="nums">
+                                    <div class="h3 stats-title num" data-goal="27">0 </div>
+                                    <div class="h3 stats-title "> Ans</div>
+
+                                </div>
+                                <p class="stats-text">d'éxperiances</p>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!---------------------SERVICE--------------------->
+
+            <section class="section service" id="service">
+                <div class="container">
+
+                    <h2 class="h2 section-title underline">Nos services</h2>
+
+                    <ul class="service-list">
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+
+                                    <ion-icon name="build-outline"></ion-icon>
+
+                                </div>
+
+                                <h3 class="h3 title">Maintenance Informatique</h3>
+                                <p class="text">Nous somme spécialisée dans la maintenance informatique dédiée aux
+                                    entreprise et aux particuliers, nous proposons des contrats de maintenance adaptés
+                                    aux besoins des clients, et prenant en charge la maintenance du parc informatique,
+                                    le réseau informatique et téléphonique.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+
+                                    <ion-icon name="globe-outline"></ion-icon>
+
+                                </div>
+
+                                <h3 class="h3 title">Instalation De Réseaux
+                                </h3>
+
+                                <ul class="text">
+                                    <li>
+
+                                        Etude et réalisation des infrastructures réseaux informatiques et
+                                        téléphoniques.
+                                    </li>
+
+                                    <li>
+
+                                        Mise en place et maintenance des serveurs.
+
+                                    </li>
+
+                                    <li>
+                                        Mise en place et maintenance des serveurs.
+
+                                    </li>
+
+                                    <li>
+                                        Installations des éléments actifs et passifs: Switch, routeur, baie de
+                                        brassage...
+
+                                    </li>
+
+                                    <li>
+                                        Création de domaines, gestion des utilisateurs et gestion des droits d’accès
+                                        aux
+                                        fichiers (Active Directory).
+                                    </li>
+
+                                    <li>
+                                        Sécurité des réseaux : pare-feu, antivirus, anti spam…
+
+                                    </li>
+
+                                    <li>
+                                        Interconnexions de réseaux éloignés géographiquement (VPN, Pont Wifi, Solution
+                                        mobile).
+                                    </li>
+                                </ul>
+
+
+
+
+
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <!---------------------PRODUCT--------------------->
+
+            <section class="section product" id="product">
+                <div class="container">
+
+                    <h2 class="h2 section-title underline">Nos produits</h2>
+
+                    <ul class="product-list">
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="laptop-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Ordinateurs</h3>
+
+                                    <p class="text">
+                                        Portable et bureaux.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="print-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Imprimantes</h3>
+
+                                    <p class="text">
+                                        Toner et laser.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="keypad-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Accessoires</h3>
+
+                                    <p class="text">
+                                        Clavier,souris,casque,
+                                        Câble HDMI,
+                                        Câble USB,Câble VGA...
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                    <figure class="features-banner">
+                        <img src="4.png" loading="lazy" alt="Features Banner" class="w-100 banner-animation">
+                    </figure>
+
+                    <ul class="product-list">
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="color-fill-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Consommables</h3>
+
+                                    <p class="text">
+                                        toner, cartouche, ram de papier...
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="cog-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Composants</h3>
+
+                                    <p class="text">
+                                        Chargeure, ram, batterie,
+                                        carte mére....
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="product-card">
+
+                                <div class="icon">
+                                    <ion-icon name="wifi-outline"></ion-icon>
+                                </div>
+
+                                <div class="content">
+                                    <h3 class="h3 title">Réseaux</h3>
+
+                                    <p class="text">
+                                        Onduleur, modem,
+                                        routeur, switch,
+                                        clé wifi...
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!---------------------FORMATION--------------------->
+
+            <section class="section formation" id="formation">
+                <div class="container">
+
+                    <h2 class="h2 section-title underline">Nos formations</h2>
+
+                    <ul class="formation-list">
+
+                        <li>
+                            <div class="formation-card">
+
+                                <figure class="banner">
+                                    <a>
+                                        <img src="flt.png" loading="lazy" alt="flutter" class="img-cover">
+                                    </a>
+                                </figure>
+
+                                <div class=" content">
+
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugiat molestias
+                                        veritatis exercitationem laudantium labore! Qui aperiam officia nam, atque
+                                        cupiditate quo saepe modi magnam reprehenderit beatae debitis minus architecto.
+
+                                    </p>
+
+
+                                    <div class="meta">
+
+                                        <div class="publish-date">
+                                            <ion-icon name="time-outline"></ion-icon>
+
+                                            <time datetime="2022-07-18">Session estivale</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="formation-card">
+
+                                <figure class="banner">
+                                    <a>
+                                        <img src="c.png" loading="lazy" alt="c#" class="img-cover">
+                                    </a>
+                                </figure>
+
+                                <div class="content">
+
+
+
+                                    <p class="text">
+
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugiat molestias
+                                        veritatis exercitationem laudantium labore! Qui aperiam officia nam, atque
+                                        cupiditate quo saepe modi magnam reprehenderit beatae debitis minus architecto.
+
+                                    </p>
+
+                                    <div class="meta">
+
+                                        <div class="publish-date">
+                                            <ion-icon name="time-outline"></ion-icon>
+
+                                            <time datetime="2022-07-18">Session estivale</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!---------------------LOGICIEL--------------------->
+
+            <section class="section logiciel" id="logiciel">
+                <div class="container">
+
+                    <h2 class="h2 section-title underline">Nos logiciels</h2>
+
+                    <div id="slider">
+                        <input type="radio" name="slider" id="slide1" checked>
+                        <input type="radio" name="slider" id="slide2">
+                        <input type="radio" name="slider" id="slide3">
+                        <input type="radio" name="slider" id="slide4">
+                        <input type="radio" name="slider" id="slide5">
+                        <input type="radio" name="slider" id="slide6">
+
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="inner">
+
+
+                                    <div class="slide slide_1">
+
+                                        <img src="./ht1.PNG" width="386" height="112" loading="lazy" alt="1"
+                                            class="img-cover">
+
+                                    </div>
+
+
+
+                                    <div class="slide slide_2">
+                                        <img src="ht1.PNG" width="386" height="112" loading="lazy" alt="2"
+                                            class="img-cover">
+                                    </div>
+
+                                    <div class="slide slide_3">
+                                        <img src="ht1.PNG" width="386" height="112" loading="lazy" alt="3"
+                                            class="img-cover">
+                                    </div>
+
+                                    <div class="slide slide_4">
+                                        <img src="ht1.PNG" width="386" height="112" loading="lazy" alt="4"
+                                            class="img-cover">
+                                    </div>
+
+
+                                    <div class="slide slide_5">
+                                        <img src="ht1.PNG" width="386" height="112" loading="lazy" alt="5"
+                                            class="img-cover">
+                                    </div>
+
+
+                                    <div class="slide slide_6">
+                                        <img src="ht1.PNG" width="386" height="112" loading="lazy" alt="6"
+                                            class="img-cover">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="controls">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                            <label for="slide5"></label>
+                            <label for="slide6"></label>
+                        </div>
+
+                        <div id="bullets">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                            <label for="slide5"></label>
+                            <label for="slide6"></label>
+
+                        </div>
+
+
+                        <div class="content">
+
+
+                            <p class="text">
+
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugiat molestias
+                                veritatis exercitationem laudantium labore! Qui aperiam officia nam, atque
+                                cupiditate quo saepe modi magnam reprehenderit beatae debitis minus architecto.
+                            </p>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+    <!---------------------FOOTER--------------------->
+
+
+    <footer class="footer" id="footer">
+
+        <div class="footer-top section">
+            <div class="container">
+
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Nos contacts</p>
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="tel:XXXXXXXXX" class="footer-item-link">XXX-XX-XX-XX
+                            </a>
+                            <a href="tel:XXXXXXXXX" class="footer-item-link">XXXX-XX-XX-XX/XX
+                            </a>
+                        </div>
+
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="mailto:XXXXXXX@XXXXXX.XXX" class="footer-item-link">XXXXXX@XXXXXXX.XXX</a>
+                        </div>
+
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="location"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="https://www.google.com/maps/place/Alger/data=!4m2!3m1!1s0x128fb26977ea659f:0x4231102d38a36f49?sa=X&ved=2ahUKEwjG5ZbW1Y_5AhXDOuwKHfm9BIwQ8gF6BAgHEAE"
+                                target="_blank" class="footer-item-link">
+                                Alger.
+                            </a>
+                        </div>
+
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </div>
+
+                        <div>
+
+
+                            <a href="https://www.facebook.com" target="_blank"> BMJ</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+
+
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Horaires</p>
+                    </li>
+
+                    <li>
+                        dimanche: 09:00 - 17:00
+                    </li>
+
+                    <li>
+                        lundi: 09:00 - 17:00
+                    </li>
+
+                    <li>
+                        Mardi: 09:00 - 17:00
+                    </li>
+
+                    <li>
+                        Mercredi: 09:00 - 17:00
+                    </li>
+
+                    <li>
+                        Jeudi: 09:00 - 17:00
+                    </li>
+
+                    <li>
+                        Vendredi: Férmer
+                    </li>
+
+                </ul>
+
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Développeur du site</p>
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="mailto:hamadi.walid@outlook.com"
+                                class="footer-item-link">hamadi.walid@outlook.com</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2022 <a class="copyright-link">BMJ</a>
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!--------------------GO TO TOP--------------------->
+
+    <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+
+
+
+
+    <!--------------------script--------------------->
+    <script src="script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
